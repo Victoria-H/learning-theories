@@ -130,7 +130,9 @@ TinCan.enableDebug();
 var tincan = new TinCan (
 	{
 		url: window.location.href,
-		Access-Control-Allow-Origin:*,
+		headers : {
+		Access-Control-Allow-Origin:'*'
+		},
 	}
 );
 
