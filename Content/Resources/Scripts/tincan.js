@@ -1996,7 +1996,7 @@ TinCan client library
         sendRequest: function (cfg) {
             this.log("sendRequest");
             var fullUrl = this.endpoint + cfg.url,
-                headers = {Access-Control-Allow-Origin},
+                headers = {},
                 prop
             ;
 
